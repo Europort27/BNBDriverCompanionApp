@@ -10,9 +10,12 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_blue_plus: ^1.31.0  # For handling BLE communication with the ESP32-C5
+  flutter_foreground_task: ^8.17.0 # Persistent notification while wardriving in the background
   geolocator: ^13.0.0         # For pulling high-accuracy phone GPS data
+  http: ^1.5.0                # For uploading recorded CSV files
   path_provider: ^2.1.3      # To access the Android local file storage system
   permission_handler: ^11.3.0 # To request access to the public Documents folder
+  shared_preferences: ^2.5.3 # To persist app settings locally
 
 dev_dependencies:
   flutter_test:
