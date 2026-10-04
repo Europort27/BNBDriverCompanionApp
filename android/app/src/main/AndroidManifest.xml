@@ -1,7 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
     <!-- Request high-accuracy GPS coordinates for WiGle tracking -->
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />    
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />    
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <!-- Fallback rough location parsing required by Android -->
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
